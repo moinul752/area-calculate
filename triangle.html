@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Calculate</title>
+    <style>
+        body{
+            background-color: #fff;
+            color: rgb(204, 32, 152);
+           
+            font-family: 'Bubblegum Sans', cursive;
+        }
+          
+          
+          h1 {
+            color: purple;
+            text-align: center;
+          }
+          nav {
+            color: purple;
+            text-align: center;
+            
+          }
+          nav ul li{
+            list-style: none;
+          }
+          nav ul li a{
+            text-decoration: none;
+          }
+          
+          form {
+            font-family: verdana;
+            font-size: 20px;
+            text-align: center;
+          }
+          form input{
+            padding: 10px 5px;
+            margin-bottom: 10px;
+            margin-top: 0;
+            left: 0;
+            border: 1px solid #001000;
+            border-radius: 5px;
+            font-size: 14px;
+            align-items: center;
+
+
+          }
+          button{
+            padding: 10px;
+            border: 1px solid #001000;
+            background-color: tomato;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 5px;
+          }
+          
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/triangle">Triangle</a></li>
+            <li ><a href="/circle">Circle</a></li>
+        </ul>
+    </nav>
+    <h1>Triangle Calculator</h1>
+    <form action="/triangle" method="POST">
+       <div>
+        <label for="height">Height: </label>
+        <input type="text" id="height" placeholder="enter the height" name="height">
+       </div>
+       <div>
+        <label for="base">Base: </label>
+        <input type="text" id="base" placeholder="enter the base" name="base">
+       </div>
+       <button type="submit">Calculate</button>
+    </form>
+    
+</body>
+</html>
